@@ -1,8 +1,18 @@
 <script>
+import AppTitle from './components/AppTitle.vue';
+import AppJumbo from './components/AppJumbotron.vue';
+
+export default {
+    components:{
+        AppTitle,
+        AppJumbo
+    }
+}
 </script>
 
 <template>
-<h1>La mia prima app con Vite!</h1>
+<AppTitle></AppTitle>
+<AppJumbo></AppJumbo>
 </template>
 
 <style>
